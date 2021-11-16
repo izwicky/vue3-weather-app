@@ -1,24 +1,10 @@
 # weather-app
 
-## Project setup
-```
-npm install
-```
+## Scope
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This small project is my very first Vue 3 app. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+The forecast location is hardcoded for learning purposes. I plan on making a version 2.0 so you can enter your desired location and get a real-time weather forecast.
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Version 1.0

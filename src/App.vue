@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="p-d-flex p-flex-column">
+    <div class="p-p-2">
+      <HeaderContainer />
+      <Footer />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import HeaderContainer from "./components/header-components/HeaderContainer.vue";
+import Footer from "./components/footer-components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Footer,
+    HeaderContainer,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+  background-color: #e1f5fe;
+  font-family: Quicksand;
+  background-image: url("assets/app-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: none;
 }
 </style>
