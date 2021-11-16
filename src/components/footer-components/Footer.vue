@@ -68,7 +68,7 @@ export default {
     const headers = { "Content-Type": "application/json" };
     await axios
       .get(
-        "http://api.weatherapi.com/v1/current.json?key=cfeee9fb7951409680d171639211011&q=New York&aqi=no",
+        "http://api.weatherapi.com/v1/current.json?key=API_KEY_HERE&q=New York&aqi=no",
         { headers }
       )
       .then((result) => {
